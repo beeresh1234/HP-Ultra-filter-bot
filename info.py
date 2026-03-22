@@ -55,7 +55,7 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "Hanuman")
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002896067356"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1002894568261"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1002701898228")
+request_channel = environ.get("REQUEST_CHANNEL", "-1002355254553")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
